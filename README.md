@@ -16,3 +16,5 @@ Unity version 2019.1.7f1. Vuforia version 8.3.8.
 To use this, download the repo and open it in Unity. You'll need a Vuforia license. In Unity, navigate to Resources/VuforiaConfiguration and input it in the appropriate field in the Inspector window. Free license is fine.
 
 You can download and use the app, but you cannot use the 3D models or the targat picture as I've either purchased or made those and hold the license.
+
+Project site: pkozakdev.com/ar
