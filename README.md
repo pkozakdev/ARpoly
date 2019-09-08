@@ -18,3 +18,8 @@ To use this, download the repo and open it in Unity. You'll need a Vuforia licen
 You can download and use the app, but you cannot use the 3D models or the targat picture as I've either purchased or made those and hold the license.
 
 Project site: pkozakdev.com/ar
+
+Update 8.9.2019
+
+- Consolidated two Game Managers into single script
+- Added optional skip button (wasn't in the original build for a reason)
