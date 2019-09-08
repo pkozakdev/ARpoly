@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public GameObject Object4;
     public GameObject Object5;
     
-    public SoundManager SoundsGood;
+    public SoundManager audioPlayer;
     private float time = 120;
     private float totalTime = 600;
     public Text counter;
@@ -90,7 +90,7 @@ public class GameManager : MonoBehaviour
 
             if (SoundPlayed[1] == 0)
             {
-                SoundsGood.Play(3);
+                audioPlayer.Play(3);
                 SoundPlayed[1] = 1;
                 
             }
@@ -115,7 +115,7 @@ public class GameManager : MonoBehaviour
             
             if (SoundPlayed[2] == 0)
             {
-                SoundsGood.Play(3);
+                audioPlayer.Play(3);
                 SoundPlayed[2] = 1;
             }
             time = 120;
@@ -138,7 +138,7 @@ public class GameManager : MonoBehaviour
             }
             if (SoundPlayed[3] == 0)
             {
-                SoundsGood.Play(3);
+                audioPlayer.Play(3);
                 SoundPlayed[3] = 1;
             }
             time = 120;
@@ -161,7 +161,7 @@ public class GameManager : MonoBehaviour
             }
             if (SoundPlayed[4] == 0)
             {
-                SoundsGood.Play(3);
+                audioPlayer.Play(3);
                 SoundPlayed[4] = 1;
             }
             time = 120;
@@ -184,35 +184,35 @@ public class GameManager : MonoBehaviour
         {
             if (Countdown[4] == 0)
             {
-                SoundsGood.Play(1);
+                audioPlayer.Play(1);
                 Countdown[4] = 1;
             }
         }if (adjustedTimer == 4)
         {
             if (Countdown[3] == 0)
             {
-                SoundsGood.Play(1);
+                audioPlayer.Play(1);
                 Countdown[3] = 1;
             }
         }if (adjustedTimer == 3)
         {
             if (Countdown[2] == 0)
             {
-                SoundsGood.Play(1);
+                audioPlayer.Play(1);
                 Countdown[2] = 1;
             }
         }if (adjustedTimer == 2)
         {
             if (Countdown[1] == 0)
             {
-                SoundsGood.Play(1);
+                audioPlayer.Play(1);
                 Countdown[1] = 1;
             }
         }if (adjustedTimer == 1)
         {
             if (Countdown[0] == 0)
             {
-                SoundsGood.Play(1);
+                audioPlayer.Play(1);
                 Countdown[0] = 1;
             }
         }
@@ -251,7 +251,7 @@ public class GameManager : MonoBehaviour
 
         if (SoundPlayed[0] == 0)
         {
-            SoundsGood.Play(3);
+            audioPlayer.Play(3);
             SoundPlayed[0] = 1;
         }
         
